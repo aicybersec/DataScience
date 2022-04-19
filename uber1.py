@@ -29,9 +29,9 @@ def load_data(nrows):
 data_load_state = st.text('Loading data...')
 data = load_data(10000)
 ####################################################################
-Replace the line data_load_state.text('Loading data...done!') with this:
+# Replace the line data_load_state.text('Loading data...done!') with this:
 
-data_load_state.text("Done! (using st.cache)")
+# data_load_state.text("Done! (using st.cache)")
 ####################################################################
 
 # Inspect the raw data
