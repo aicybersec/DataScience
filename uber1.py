@@ -12,9 +12,9 @@ DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
             'streamlit-demo-data/uber-raw-data-sep14.csv.gz')
 ####################################################################
-run Streamlit from the command line:
+# run Streamlit from the command line:
 
-streamlit run uber.py
+# streamlit run uber.py
 ####################################################################
 
 @st.cache
